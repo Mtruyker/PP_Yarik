@@ -1,0 +1,13 @@
+REVOKE
+REVOKE
+ products | units 
+----------+-------
+       21 |   191
+(1 row)
+
+ movements 
+-----------
+        21
+(1 row)
+
+Restored to prodahi_restore_verified. This isolated restore has no application grants.

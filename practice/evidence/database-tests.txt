@@ -1,0 +1,13 @@
+BEGIN
+SET
+DO
+RESET
+psql:practice/sql/03_verify.sql:30: ЗАМЕЧАНИЕ:  PASS: receipts, weighted cost, sale, invalid inputs, oversell, protected tables
+psql:practice/sql/03_verify.sql:36: ЗАМЕЧАНИЕ:  PASS: movement journal
+DO
+ROLLBACK
+ products | units 
+----------+-------
+       21 |   191
+(1 row)
+
